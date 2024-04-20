@@ -1,0 +1,45 @@
+.aic-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+}
+.aic-icon{
+    font-size: 16pt;
+}
+
+.aic-submit-btn:hover{
+    background: #27374d !important;
+}
+
+.aic-tones, .aic-formats, .aic-result-div{
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aic-result-div{
+    border: solid rgba(0, 0, 0, 0.4) 2px;
+}
+.aic-tones-lists{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+.aic-formats-list{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+}
+.aic-big-icon{
+    font-size: 21pt;
+    padding: 1rem;
+}
+.tone-line{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}

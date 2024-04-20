@@ -1,0 +1,44 @@
+.sendto{
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.box-btn{
+    color: #dde6ed;
+    background-color: #27374d;
+    border: none;
+    border-radius: 1px;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 550;
+    margin-left: 90px;
+}
+.box-btn:hover{
+    cursor: pointer;
+    outline: solid blue 1px;
+    outline-offset: 1px;
+}
+.subject{
+    padding: 1%; 
+    border-radius:0px !important;
+}
+
+.mce-label{
+    align-self: flex-start;
+    width: 80px;
+}
+.mce-label h3{
+    margin:5px 0 0 0;
+} 
+.tinymce, .mce-containers{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    gap: 10px;
+}
+
+ .mce-grow{
+    flex-grow: 1;
+} 

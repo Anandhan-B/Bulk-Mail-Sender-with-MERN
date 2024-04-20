@@ -1,0 +1,38 @@
+#reset-body{
+    display: grid;
+    place-content: center;
+    background: #d2dafa;
+    min-height: 100dvh;
+}
+#reset{
+    display: flex;
+    gap: 20px;
+    border: none; 
+    background: #fff;
+    flex-direction: column;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: black 0px 5px 15px;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+}
+.btn-reset{
+    margin: auto;
+    color: #dde6ed;
+    background: #27374d;
+}
+#new-pass{
+    width:250px;
+}
+#con-pass{
+    width: 250px;
+}
+.reset-head{
+    font-size: 24px;
+    font-weight: 600;
+    color: #27374d;
+    position: relative;
+    bottom: 20px;
+}

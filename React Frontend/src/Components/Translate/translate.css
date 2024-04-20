@@ -1,0 +1,54 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@100..900&display=swap');
+.container{
+  font-family: "Noto Sans Tamil", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  /* padding: 40px; */
+}
+.speech-text{
+  width: 95%;
+  margin: auto;
+  font-size: 20pt;
+}
+
+.dropdown-row{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+.translate-from,.translate-result{
+  width: 100%;
+
+}
+.btn-tra{
+  color: #dde6ed;
+  background-color: #27374d;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.swap-icon{
+  font-size: 1.5rem !important;
+}
+.translate-actions{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  width: 90%;
+}
+.translate-actions div{
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.translate-actions div:hover{
+  color: #27374d;
+}
+.speech-text :hover{
+  color: #27374d;
+}

@@ -1,0 +1,61 @@
+.taskgroup-container{
+    padding:0 1rem 1rem;
+}
+.taskgroup-title{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+    /* position: sticky;
+    top:0; */
+}
+
+.taskgroup-tools{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.taskgroup-list{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.group-cell{
+    padding-bottom: 10px;
+
+}
+.group-cell a{
+    text-decoration:none;
+    color:black;
+}
+.fc-group-icon{
+    transform: translateY(9px);
+}
+.group-title{
+    font-weight: bold;
+    font-size: medium;
+    margin: 0 10px;
+}
+.add-group{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+.taskgroup{
+    padding: .3rem;
+    border-radius: 5px;
+    display: flex;
+    gap:1rem;
+    cursor: pointer;
+    min-height: 2rem;
+    align-items: center;
+}
+.folder-icon, .group-name{
+    font-size: 1.3rem !important;
+} 
+.taskgroup:hover{
+    background: #B9D9EB;
+    transition: .4s;
+} 
